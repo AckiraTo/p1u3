@@ -8,4 +8,21 @@
     android:background="@drawable/splash1"
     tools:context=".splash">
 
-  </RelativeLayout>
+  <ProgressBar
+      android:id="@+id/progressBar"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="97dp"
+      android:layout_height="99dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="153dp"
+      android:layout_marginLeft="153dp"
+      android:layout_marginTop="499dp"
+      android:layout_marginEnd="160dp"
+      android:layout_marginRight="160dp"
+      android:layout_marginBottom="133dp" />
+</RelativeLayout>
